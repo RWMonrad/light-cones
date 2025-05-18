@@ -1,7 +1,7 @@
 # Light Cones – Utviklingsdokumentasjon
 
 ## Prosjektmål
-Light Cones er et eksperimentelt, betalt web-app-prosjekt hvor brukere kan utfordre og utforske grensene for lyshastighet, relativitet og tid. Plattformen skal være engasjerende, kunnskapsrik og leken – og la brukerne utfordre etablerte sannheter og lansere egne teorier.
+Light Cones er et eksperimentelt web-app-prosjekt hvor brukere kan utfordre og utforske grensene for lyshastighet, relativitet og tid. Plattformen skal være engasjerende, kunnskapsrik og leken – og la brukerne utfordre etablerte sannheter og lansere egne teorier.
 
 ## Hovedområder
 - **Simulation Lab:** Interaktive fysikk-simuleringer med visuelle effekter og brukerkontroller.
@@ -36,21 +36,10 @@ Light Cones er et eksperimentelt, betalt web-app-prosjekt hvor brukere kan utfor
 - Fokus på unik UI/UX, ikke generisk shadcn/ui
 - Bruk av Figma UI-kit (Universe) som inspirasjon, men alt bygges i kode
 - Integrasjon av context7 for oppdatert dokumentasjon og forskningsbasert søk
-- Prosjektet skal være 100% separat fra tidligere BookingSystem-prosjekt
-- Samsung Sans skal brukes konsekvent i hele appen
 - All utvikling skal kun skje i denne mappen og med denne kodebasen
 
 ## MCP/RAG-oppsett
 - context7 MCP-server er integrert og brukes til å hente sanntids dokumentasjon og kodeeksempler
 - Bruk resolve-library-id og get-library-docs for å hente relevant info
-- Alt kunnskapsinnhold og dokumentasjon i appen skal være drevet av context7
-
-## Videre arbeid
-- Implementere første fungerende versjon av Simulation Lab
-- Lage grunnstruktur for Challenge Arena og Knowledge Portal
-- Integrere context7 i alle relevante flows
-- Kontinuerlig forbedring av UI/UX og brukeropplevelse
 
 ---
-
-**All utvikling, testing og dokumentasjon skal kun skje i Light Cones-prosjektet. Ingen filer, kode eller konfig fra BookingSystem eller andre prosjekter skal brukes.**
