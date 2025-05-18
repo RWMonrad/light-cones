@@ -1,3 +1,6 @@
+> Repoet har allerede Next.js 14-skjelett, Tailwind, Drizzle-config og context7-SDK.
+> Dine oppgaver starter der koden slutter – se tabellen under.
+> 
 | Fil / Mappe                   | TODO                                                 |
 | ----------------------------- | ---------------------------------------------------- |
 | `src/app/layout.tsx`          | Legg inn `<QueryProvider>` og global Tailwind-import |
